@@ -3,11 +3,11 @@
 
 int main() {
     std::string questions[3] = {
-        "Am i sigma?\n",
+        "What is 1 + 0?\n",
         "What is 1 + 1?\n",
         "What is 1 + 2?\n"
     };
-    int correctAnswers[3] = {yes, 2, 3};
+    int correctAnswers[3] = {1, 2, 3};
     int userAnswers[3];
     int score = 0;
 
